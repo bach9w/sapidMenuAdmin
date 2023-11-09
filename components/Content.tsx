@@ -31,7 +31,7 @@ async function fetchTitleById(id: number): Promise<string | null> {
 
 export const List = () => {
 	const [content, setContent] = useState<Content[]>([]);
-	const [titles, setTitles] = useState<{ [key: number]: string }>({});
+	const [titles, setTitles] = useState<{ [key: number]: string | null }>({});
 
 	const router = useRouter();
 	const searchParams = useSearchParams();
