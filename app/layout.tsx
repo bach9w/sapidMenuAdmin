@@ -6,7 +6,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-	title: 'Dashboard',
+	title: 'SAPID ADMIN',
 	description: 'SAPID ADMIN',
 };
 
